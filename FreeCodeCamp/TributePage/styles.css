@@ -1,0 +1,25 @@
+#main {
+  background-color: #eeeeee;
+  margin-top: 20px;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+#img-div {
+  background-color: white;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#tribute-info {
+  margin: auto;
+  justify-content: center;
+}

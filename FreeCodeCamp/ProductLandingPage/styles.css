@@ -1,0 +1,67 @@
+#header {
+  display: flex;
+  padding: 0px 20px;
+  position: fixed;
+  top: 0;
+  align-item: center;
+}
+
+#header-img {
+  width: 300px;
+  height: 34.14px;
+}
+
+ul {
+  display: flex;
+  width: 35vw;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#main {
+  position: relative;
+  top: 100px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+}
+
+#submit {
+  background-color: yellow;
+}
+
+.grid {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  height: 90px;
+  width: 90px;
+  padding: 30px;
+}
+
+.desc {
+  display: flex;
+  padding: 5px;
+  height: 125px;
+  width: 80vw;
+  flex-direction: column;
+}
+
+#video {
+  background-position: center;
+  position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #333;
+    color: white;
+  }
+}
